@@ -10,7 +10,7 @@
 - scale(width,height) -  set only one patam: width or height/ another set is 'null' 
 - cropScale(width,height) - crop image by set size
 - wmText(text,font) - text watermark  and font .ttf full path
-- output() - reurn file jpg header
+- output() - return data jpg w/header
 - outputFile(file) - output file pacth  
 
 

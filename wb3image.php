@@ -11,8 +11,8 @@ class wb3Image
     public function setInput($imgFile)
     {
         $infoArray = pathinfo($imgFile);
-        if ($this->extensions[$infoArray['extension']]) {
-            $ext = $this->extensions[$infoArray['extension']];
+        if ($this->extensions[strtolower($infoArray['extension'])]) {
+            $ext = $this->extensions[strtolower($infoArray['extension'])];
             $imgData = getimagesize($imgFile);
             $this->inputWidth = $imgData[0];
             $this->inputHeight = $imgData[1];

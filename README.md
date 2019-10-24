@@ -30,11 +30,5 @@ $img->wmText('watermark', './OpenSans-Regular.ttf');
 $img->output();
 
 ```
-***Original***
 
-[![INSERT YOUR GRAPHIC HERE](http://ialexeev.cloud/wbmods/wb3image/test.jpg)]()
-
-***Output***
-
-[![INSERT YOUR GRAPHIC HERE](http://ialexeev.cloud/wbmods/wb3image/index.php)]()
 
